@@ -1,0 +1,20 @@
+body,html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  section:before {
+    height: 56px;
+    content: "";
+    display:block;
+}
+
+.vh-50 {
+    min-height: 50vh;
+}
+.vh-75 {
+    min-height: 75vh;
+}
+.vh-100 {
+    min-height: 100vh;
+}
