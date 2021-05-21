@@ -18,3 +18,9 @@ body,html {
 .vh-100 {
     min-height: 100vh;
 }
+@media screen and (max-width: 767px) {
+    #tematica {
+        margin-top: 300px;
+    }
+}
+
