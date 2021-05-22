@@ -4,7 +4,7 @@ body,html {
   }
 
   section:before {
-    height: 56px;
+    height: 100px;
     content: "";
     display:block;
 }
@@ -19,6 +19,11 @@ body,html {
     min-height: 100vh;
 }
 @media screen and (max-width: 767px) {
+
+header {
+    width: 10000px; 
+    height: 100%;
+}
 #tematica {
     margin-top: 300px;
 }
